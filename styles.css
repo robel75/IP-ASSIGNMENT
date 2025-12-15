@@ -61,7 +61,7 @@ img{
     /* border: 6px solid green; */
     display: flex;
 }
-img:hover{
+.images:hover{
     transform: scale(2);
 }
 
@@ -70,4 +70,7 @@ img:hover{
     border: 2px solid;
     justify-content: space-evenly;
     flex-direction: column;
+}
+.Cent:hover{
+    transform: scale()
 }
