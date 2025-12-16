@@ -74,6 +74,8 @@ img{
 .Cent:hover{
     transform: scale()
 }
-.contentimages{
+#contentimages{
     width: 400px;
+    height: 400px;
 }
+
