@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    color: black;
 }
 body{
- font-family:Georgia, 'Times New Roman', Times, serif;
- background: #00264D;
-
+ font-family:'futura';
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
 }
 h1{
     text-align: center;
@@ -21,7 +25,8 @@ h1{
     z-index: 1000;
     background: transparent;
     list-style-type: none;
-
+    margin:10px;
+    padding:10px;
 }
 .navbar ul{
     display: flex;
@@ -68,6 +73,21 @@ img{
     /* border: 1px solid blue; */
     margin-right: -60px;
     transition: all .4s ease;
+}
+.Landing{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+    padding:20px;
+    border:1px solid red;
+    text-align: center;
+}
+.Cent{
+    display: flex;
+    justify-content: center;
+    height:auto;
 }
 .Image-cont{
     padding: 20px;
