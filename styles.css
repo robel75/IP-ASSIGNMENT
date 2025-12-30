@@ -4,8 +4,6 @@
     box-sizing: border-box;
     color: white;
 }
-
-
 body{
  font-family:Georgia, 'Times New Roman', Times, serif;
  background: #00264D;
@@ -15,6 +13,22 @@ h1{
     text-align: center;
 }
 
+.navbar {
+    display:flex;
+    justify-content: center;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+    background: transparent;
+    list-style-type: none;
+
+}
+.navbar ul{
+    display: flex;
+    gap:20px;
+    margin: 0;
+    list-style: none;
+}
 .container{
     padding: 100px;
     /* margin: 40px; */
@@ -78,4 +92,7 @@ img{
     width: 400px;
     height: 400px;
 }
-
+.cleo2nd{
+    width:400px;
+    height:900px;
+}
