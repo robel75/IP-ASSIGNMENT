@@ -41,7 +41,7 @@ body{
     margin:50px;
     font-size:30px;
 }
-#landingparagraph{
+.MainLanding p{
    font-size: 20px;
    margin:20px;
 }
