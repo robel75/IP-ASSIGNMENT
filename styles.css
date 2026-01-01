@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: black;
 }
 body{
  font-family:'futura';
@@ -11,7 +10,12 @@ body{
     width:100%;
     margin:0;
     padding:0;
-    overflow-x:hidden;
+    overflow-x:visible;
+     color: white;
+    background: black
+}
+.Backgroundimg{
+
 }
 .navbar {
     display:flex;
@@ -33,14 +37,22 @@ body{
 .MainLanding{
     display:flex;
     padding:50px;
-    gap:20px;
-    margin:30px;
     align-items: center;
     height: 100vh;
+    width: 100%;
+}
+.Landingpic img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.Landingpic{
+     flex: 0 0 auto;  /* pic stays the same, doesnt shrink doesnt enlarge */
 }
 .Landingmaintext{
     margin:50px;
     font-size:30px;
+    min-width: 0;
 }
 .MainLanding p{
    font-size: 20px;
@@ -54,42 +66,69 @@ body{
   justify-content: center;
   align-items: center;
   padding:30px;
-  margin:30px;
+  margin:40px;
 }
 .Medieval{
-    height: 300px;
-    width: 300px;
-    margin:40px;
+    height: auto;
+    width: 350px;
+    margin:20px;
+    padding:30px;
+    background: rgb(37, 37, 37);
 }
 .Renaissance{
-    height: 300px;
-    width: 300px;
-    margin:40px;
+    height: auto;
+    width: 350px;
+    margin:20px;
+    padding:30px;
+    background: rgb(37, 37, 37);
 }
 .EarlyModern{
-    height: 300px;
-    width: 300px;
-    margin:40px;
+    height: auto;
+    width: 350px;
+    margin:20px;
+    padding:30px;
+    background: rgb(37, 37, 37);
 }
 .Industrial{
-    height: 300px;
-    width: 300px;
-    margin:40px;
+    height: auto;
+    width: 350px;
+    margin:20px;
+    padding:30px;
+    background: rgb(37, 37, 37);
 }
 .ModernEra{
-    height: 300px;
-    width: 300px;
-    margin:40px;
+    height: auto;
+    width: 350px;
+    margin:20px;
+    padding:30px;
+    background: rgb(37, 37, 37);
 }
 .InformationAge{
-    height: 300px;
-    width: 300px;
-    margin:40px;
+    height: auto;
+    width: 350px;
+    margin:20px;
+    padding:30px;
+    background: rgb(37, 37, 37);
 }
 .Ancient{
-    height: 300px;
-    width: 300px;
-    margin:40px;
+    height: auto;
+    width: 350px;
+    margin:20px;
+    padding:30px;
+    background: rgb(37, 37, 37);
+}
+.Cards h4{
+    text-align: start;
+    margin-bottom:30px;
+}
+.Cards h2{
+    margin:30px;
+}
+.Cards p{
+    margin: 20px;
+}
+.Cards h5{
+    margin:30px;
 }
 footer{
     text-align: center;
