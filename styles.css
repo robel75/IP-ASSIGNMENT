@@ -15,7 +15,19 @@ body{
     background: black
 }
 .Backgroundimg{
-
+   background-image: url(./assets/Famous\ Faces\ Painting.jpg);
+   height: 100vh;
+   width: 100vw;
+   position: fixed;
+   top: 0;
+   margin:0;
+   bottom: 0;
+   z-index: -6;
+   opacity: 0.3;
+   filter:blur(6px);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
 }
 .navbar {
     display:flex;
@@ -33,6 +45,10 @@ body{
     gap:20px;
     margin: 0;
     list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
 }
 .MainLanding{
     display:flex;
