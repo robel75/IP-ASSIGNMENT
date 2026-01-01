@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
- font-family:'futura';
+ font-family:'Inter';
     box-sizing: border-box;
     height:100%;
     width:100%;
@@ -91,12 +91,26 @@ body{
     padding:30px;
     background: rgb(37, 37, 37);
 }
+.Medieval:hover{
+    color:black;
+    background-color: white;
+    transform: scale(1.1);
+    transform: rotate(-10deg);
+    transition-duration: 0.5s;
+}
 .Renaissance{
     height: auto;
     width: 350px;
     margin:20px;
     padding:30px;
     background: rgb(37, 37, 37);
+}
+.Renaissance:hover{
+    color:black;
+    background-color: white;
+    transform: scale(1.1);
+    transform: rotate(10deg);
+    transition-duration: 0.5s;
 }
 .EarlyModern{
     height: auto;
@@ -105,12 +119,26 @@ body{
     padding:30px;
     background: rgb(37, 37, 37);
 }
+.EarlyModern:hover{
+    color:black;
+    background-color: white;
+    transform: scale(1.1);
+    transform: rotate(-10deg);
+    transition-duration: 0.5s;
+}
 .Industrial{
     height: auto;
     width: 350px;
     margin:20px;
     padding:30px;
     background: rgb(37, 37, 37);
+}
+.Industrial:hover{
+    color:black;
+    background-color: white;
+    transform: scale(1.1);
+    transform: rotate(10deg);
+    transition-duration: 0.5s;
 }
 .ModernEra{
     height: auto;
@@ -119,6 +147,13 @@ body{
     padding:30px;
     background: rgb(37, 37, 37);
 }
+.ModernEra:hover{
+    color:black;
+    background-color: white;
+    transform: scale(1.1);
+    transform: rotate(-10deg);
+    transition-duration: 0.5s;
+}
 .InformationAge{
     height: auto;
     width: 350px;
@@ -126,12 +161,26 @@ body{
     padding:30px;
     background: rgb(37, 37, 37);
 }
+.InformationAge:hover{
+    color:black;
+    background-color: white;
+    transform: scale(1.1);
+    transform: rotate(10deg);
+    transition-duration: 0.5s;
+}
 .Ancient{
     height: auto;
     width: 350px;
     margin:20px;
     padding:30px;
     background: rgb(37, 37, 37);
+}
+.Ancient:hover{
+    color:black;
+    background-color: white;
+    transform: scale(1.1);
+    transform: rotate(10deg);
+    transition-duration: 0.5s;
 }
 .Cards h4{
     text-align: start;
