@@ -50,6 +50,10 @@ body{
     text-decoration: none;
     color:white;
 }
+.stroke{
+  -webkit-text-stroke: 2px goldenrod;
+  color: transparent;
+}
 .scroll-icon {
   position: absolute;
   bottom: 40px;
@@ -78,7 +82,7 @@ body{
 }
 .MainLanding{
     display:flex;
-    padding:50px;
+    padding:80px;
     align-items: center;
     height: 100vh;
     width: 100%;
@@ -91,14 +95,25 @@ body{
 .Landingpic{
      flex: 0 0 auto;  /* pic stays the same, doesnt shrink doesnt enlarge */
 }
-.Landingmaintext{
-    margin:50px;
-    font-size:30px;
-    min-width: 0;
+.Landing-main-wrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    padding: 30px;
+
+    gap: 40px;
 }
-.MainLanding p{
-   font-size: 20px;
-   margin:20px;
+.head-quote{
+    font-size: 50px;
+    /* border: 2px solid white; */
+    max-width: 75%;
+}
+.Landing-paragraph{
+    max-width: 60%;
+    line-height: 40px;
+    /* border: 2px solid white; */
+    font-size: 22px;
 }
 .Cards{
   display:flex;
