@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
- font-family:'DM Sans';
+ font-family:'Work Sans';
     box-sizing: border-box;
     height:100%;
     width:100%;
@@ -58,13 +58,23 @@ body{
   animation: slowJump 2s ease-in-out infinite;
   transition: opacity 0.3s ease;
 }
-
 .scroll-icon:hover {
   opacity: 1;
   cursor: pointer;
 }
 .scroll-icon img{
   height: 10px;
+}
+@keyframes slowJump {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-25px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
 }
 .MainLanding{
     display:flex;
@@ -100,6 +110,11 @@ body{
   padding:30px;
   margin:40px;
 }
+.Class-bottom{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+}
 .Medieval{
     height: auto;
     width: 350px;
@@ -121,6 +136,7 @@ body{
     padding:30px;
     background: rgb(37, 37, 37);
 }
+
 .Renaissance:hover{
     color:black;
     background-color: white;
@@ -204,6 +220,7 @@ body{
 }
 .Cards h2{
     margin:30px;
+    text-align: center;
 }
 .Cards p{
     margin: 20px;
