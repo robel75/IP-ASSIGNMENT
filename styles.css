@@ -115,6 +115,12 @@ body{
     width:100%;
     justify-content: space-between;
 }
+.Class-bottom a{
+    color:white;
+}
+.Class-bottom a:hover{
+    color:black;
+}
 .Medieval{
     height: auto;
     width: 350px;
