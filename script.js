@@ -2,8 +2,8 @@ const toggleButton = document.getElementById('toggle-btn')
 const sidebar = document.getElementById('sidebar')
 
 function toggleSubMenu(button){
-  button.nextElementSibling.classList.toggle('show')
-  button.classList.toggle('rotate')
+  button.nextElementSibling.classList.toggle('show') //submenu shows
+  button.classList.toggle('rotate') //submenu expand button rotates
   if (sidebar.classList.contains('close')){
     sidebar.classList.toggle('close')
     toggleButton.classList.toggle('rotate')
