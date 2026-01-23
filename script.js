@@ -13,8 +13,8 @@ function toggleSubMenu(button){
 function toggleSidebar(){
     sidebar.classList.toggle('close') //closes sidebar if it was open or opens it if it was closed
     toggleButton.classList.toggle('rotate') //rotates the button
-
-    Array.from(sidebar.getElementsByClassName('show')).forEach(ul => {
+     //converts them to array so we can use forEach
+    Array.from(sidebar.getElementsByClassName('show')).forEach(ul => { //finds all submenus that are currently open inside the sidebar
         ul.classList.remove('show')
         ul.previousElementSibling.classList.remove('rotate')
     })
