@@ -4,8 +4,8 @@ const sidebar = document.getElementById('sidebar')
 function toggleSubMenu(button){
   button.nextElementSibling.classList.toggle('show') //submenu shows
   button.classList.toggle('rotate') //submenu expand button rotates
-  if (sidebar.classList.contains('close')){
-    sidebar.classList.toggle('close')
+  if (sidebar.classList.contains('close')){ //fixes the issue of the elements
+    sidebar.classList.toggle('close')       //going out of the sidebar when sidebar is closed
     toggleButton.classList.toggle('rotate')
   }
 }
